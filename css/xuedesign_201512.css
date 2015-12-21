@@ -1,0 +1,382 @@
+/**********************************************************************************************
+
+	Title: CSS for MOTAC MicroMovie Site
+	Author: Elmo Wu (by xuedesign studio)
+	Author URL: http://www.xuedesign.tw/
+	Version: v1.0 (2015/12)
+
+***********************************************************************************************
+		1 通用
+		2.首頁
+		   2-1. 頂端列
+		   2-2. 主要內容區塊
+		   2-3. 首頁選單
+		   2-4. 版權列	
+***********************************************************************************************/
+
+/* 1. 通用 
+===============================================================================================*/
+body{
+	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:22px;
+	color:#513030;
+	background:url(../images/bg_site.png) repeat}
+a:link {text-decoration:underline; color:#00adee}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+::selection {
+   background:#4b4608;
+   color:#fffcdb}
+::-moz-selection {
+   background:#4b4608;
+   color:#fffcdb}
+
+/* 2. 首頁  
+===============================================================================================*/
+#wrap{
+	display:block;
+	width:1238px;
+	margin:0 auto}
+#box_index{
+	display:block;
+	/*position: absolute;
+	top: 15px;
+    left: 50%;*/
+	width:1238px;
+	background:url(../images/bg_index.png) repeat;
+	margin: 15px auto 0 auto ;
+	-webkit-box-shadow: 0 0 20px #4E4E4E;
+    -moz-box-shadow: 0 0 20px #4E4E4E;
+    box-shadow: 0 0 20px #4E4E4E;
+	-webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px}
+
+/* 2.1 頂端列 */	
+header{
+	display:block;
+	position:relative;
+	width:1238px;
+	height:89px}
+h1 a{
+	display:block;
+	position:absolute;
+	top:15px;
+	left:-1px;
+	width:186px;
+	height:77px;
+	background:url(../images/pic_h1.png) no-repeat;
+	text-indent:-9999px}
+
+/* 2.2 主要內容區塊 */		
+#box_content{
+	display:block;
+	position:relative;
+	width:1240px;
+	height:600px}
+#box_content .movie-title-01, #box_content .movie-title-02{ 
+    display: block; 
+	position:absolute;
+	text-indent:-9999px}
+#box_content .movie-title-01{
+	background:url(../images/pic_h2-01.png) no-repeat;
+	width:446px;
+	height:89px;
+	top:120px;
+	left:35px;
+	z-index:99}
+#box_content .movie-title-02{
+	background:url(../images/pic_h2-02.png) no-repeat;
+	width:456px;
+	height:349px;
+	top:-20px;
+	right:35px;
+	z-index:99}
+#box_safenote{
+	display:block;
+	position:absolute;
+	top:-103px;
+	left:370px;
+	z-index:199;
+	width:500px;
+	min-height:510px}			
+#box_safenote h3{
+	display:block;
+	width:500px;
+	height:82px;
+	background:url(../images/pic_h3.png) no-repeat;
+	text-indent:-9999px}
+#box_safenote ol{ display:block; margin:0; padding:0}	
+#box_safenote li{
+	display:block;
+	text-indent:-9999px}
+.note_01{
+	width:125px;
+	height:94px;
+	background:url(../images/pic_safenote_01.png) no-repeat;
+	margin:0 0 37px 183px}
+.note_02{
+	width:149px;
+	height:67px;
+	background:url(../images/pic_safenote_02.png) no-repeat;
+	margin:0 0 35px 171px}	
+.note_03{
+	width:99px;
+	height:63px;
+	background:url(../images/pic_safenote_03.png) no-repeat;
+	margin:0 0 40px 196px}	
+.note_04{
+	width:273px;
+	height:63px;
+	background:url(../images/pic_safenote_04.png) no-repeat;
+	margin-left:109px}			
+
+#my_cloud, #my_tree, #my_bike, #my_moto{ display:block;	position:absolute; z-index:1}		
+#my_cloud{
+	top:-100px;
+	right:-26px;
+	background: url(../images/pic_cloud.png) no-repeat;
+	width:487px;
+	height:223px}	
+#my_tree{
+	bottom:0;
+	left:-50px;
+	background:url(../images/pic_tree.png) no-repeat;
+	width:546px;
+	height:530px}
+#my_bike{
+	bottom:0;
+	left:203px;
+	background:url(../images/pic_bike.png) no-repeat;
+	width:159px;
+	height:203px}	
+#my_moto{
+	bottom:0;
+	right:64px;
+	background:url(../images/pic_moto.png) no-repeat;
+	width:213px;
+	height:210px}	
+		
+
+/* 2.3 首頁選單 */		
+#box_menu{
+	display:block;
+	position:absolute;
+	bottom:30px;
+	left:431px;
+	width:378px;
+	height:98px}
+#box_menu ul{ display:block; margin:0; padding:0}
+#box_menu li a{
+	display: block;
+	float:left;
+	width:116px;
+	height:98px;
+	text-indent:-9999px;
+	background:url(../images/btn_nav.png) no-repeat;
+	margin:0 5px}
+#box_menu a.nav_01{ background-position: 0 0}
+#box_menu a.nav_01:hover{ background-position: 0 -98px}
+#box_menu a.nav_02{ background-position: -116px 0}
+#box_menu a.nav_02:hover{ background-position: -116px -98px}
+#box_menu a.nav_03{ background-position: -232px 0}
+#box_menu a.nav_03:hover{ background-position: -232px -98px}
+#box_menu a.nav_04{ background-position: -348px 0}
+#box_menu a.nav_04:hover{ background-position: -348px -98px}
+
+/* 2.4 版權列 */					
+footer{
+	clear:both;
+	display:block;
+	position:relative;
+	width:1238px;
+	height:46px;
+	background:url(../images/bg_footer.png) repeat-x;
+	-webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px}
+footer p{
+	text-align:center;
+	font-size:0.813em;
+	color:#fffcdb;
+	margin:0;
+	padding:0;
+	line-height:46px}
+footer .txt_ad{
+	display:block;
+	position:absolute;
+	top:14px;
+	right:48px;
+	width:52px;
+	height:24px;
+	background:url(../images/pic_ad.png) no-repeat;
+	text-indent:-9999px}
+
+/*新增動畫效果 #20151103*/
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite}
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s}
+.ani-title01{
+	display:block;
+	position:absolute;
+	z-index:99;
+	-webkit-animation-delay:2s;
+	animation-delay:2s;
+	-webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+	animation-duration: 2s;
+    -webkit-animation-name: zoomIn;
+    -moz-animation-name: zoomIn;
+    animation-name: zoomIn}
+.ani-title02{
+	display:block;
+	position:absolute;
+	top:-20px;
+	right:35px;
+	z-index:99;
+	-webkit-animation-delay:3s;
+	animation-delay:3s;
+	-webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+	animation-duration: 2s;
+    -webkit-animation-name: zoomIn;
+    -moz-animation-name: zoomIn;
+    animation-name: zoomIn}	
+@-webkit-keyframes zoomIn {
+  from {
+	opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3)}
+  50% {opacity: 1}
+}
+
+@keyframes zoomIn {
+  from {
+	opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3)}
+  50% { opacity: 1}
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)}
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05)}
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)}
+}
+
+.pulse {
+  -webkit-animation-delay:5s;
+	animation-delay:5s;	
+  -webkit-animation-name: pulse;
+  animation-name: pulse}
+  
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0)}
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none}
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0)}
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none}
+}
+.fadeInDown-01{
+  -webkit-animation-delay:6s;
+  animation-delay:6s;	
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown}
+.fadeInDown-02{
+  -webkit-animation-delay:7s;
+  animation-delay:7s;	
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown}
+.fadeInDown-03{
+  -webkit-animation-delay:8s;
+  animation-delay:8s;	
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown}
+.fadeInDown-04{
+  -webkit-animation-delay:9s;
+  animation-delay:9s;	
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0)}
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none}
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0)}
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none}
+}
+
+.fadeInUp {
+  -webkit-animation-delay:10s;
+  animation-delay:10s;		
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp}        
+   
+						
