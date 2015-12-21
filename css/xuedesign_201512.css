@@ -1,6 +1,6 @@
 /**********************************************************************************************
 
-	Title: CSS for MOTAC MicroMovie Site
+	Title: CSS for TAIWAN AFTER-CARE ASSOCIATION 70Years Site
 	Author: Elmo Wu (by xuedesign studio)
 	Author URL: http://www.xuedesign.tw/
 	Version: v1.0 (2015/12)
@@ -21,7 +21,7 @@ body{
 	font-size:100%;
 	line-height:22px;
 	color:#513030;
-	background:url(../images/bg_site.png) repeat}
+	background:url(../images/bg_site.jpg) repeat}
 a:link {text-decoration:underline; color:#00adee}
 a:visited {text-decoration:underline; color:#8c8c8c}
 a:hover {text-decoration:none; color:#F50}
@@ -45,9 +45,6 @@ image{border:0}
 	margin:0 auto}
 #box_index{
 	display:block;
-	/*position: absolute;
-	top: 15px;
-    left: 50%;*/
 	width:1238px;
 	background:url(../images/bg_index.png) repeat;
 	margin: 15px auto 0 auto ;
@@ -67,10 +64,10 @@ header{
 h1 a{
 	display:block;
 	position:absolute;
-	top:15px;
-	left:-1px;
-	width:186px;
-	height:77px;
+	top:31px;
+	left:27px;
+	width:142px;
+	height:146px;
 	background:url(../images/pic_h1.png) no-repeat;
 	text-indent:-9999px}
 
@@ -80,64 +77,8 @@ h1 a{
 	position:relative;
 	width:1240px;
 	height:600px}
-#box_content .movie-title-01, #box_content .movie-title-02{ 
-    display: block; 
-	position:absolute;
-	text-indent:-9999px}
-#box_content .movie-title-01{
-	background:url(../images/pic_h2-01.png) no-repeat;
-	width:446px;
-	height:89px;
-	top:120px;
-	left:35px;
-	z-index:99}
-#box_content .movie-title-02{
-	background:url(../images/pic_h2-02.png) no-repeat;
-	width:456px;
-	height:349px;
-	top:-20px;
-	right:35px;
-	z-index:99}
-#box_safenote{
-	display:block;
-	position:absolute;
-	top:-103px;
-	left:370px;
-	z-index:199;
-	width:500px;
-	min-height:510px}			
-#box_safenote h3{
-	display:block;
-	width:500px;
-	height:82px;
-	background:url(../images/pic_h3.png) no-repeat;
-	text-indent:-9999px}
-#box_safenote ol{ display:block; margin:0; padding:0}	
-#box_safenote li{
-	display:block;
-	text-indent:-9999px}
-.note_01{
-	width:125px;
-	height:94px;
-	background:url(../images/pic_safenote_01.png) no-repeat;
-	margin:0 0 37px 183px}
-.note_02{
-	width:149px;
-	height:67px;
-	background:url(../images/pic_safenote_02.png) no-repeat;
-	margin:0 0 35px 171px}	
-.note_03{
-	width:99px;
-	height:63px;
-	background:url(../images/pic_safenote_03.png) no-repeat;
-	margin:0 0 40px 196px}	
-.note_04{
-	width:273px;
-	height:63px;
-	background:url(../images/pic_safenote_04.png) no-repeat;
-	margin-left:109px}			
 
-#my_cloud, #my_tree, #my_bike, #my_moto{ display:block;	position:absolute; z-index:1}		
+/*#my_cloud, #my_tree, #my_bike, #my_moto{ display:block;	position:absolute; z-index:1}		
 #my_cloud{
 	top:-100px;
 	right:-26px;
@@ -161,7 +102,7 @@ h1 a{
 	right:64px;
 	background:url(../images/pic_moto.png) no-repeat;
 	width:213px;
-	height:210px}	
+	height:210px}*/	
 		
 
 /* 2.3 首頁選單 */		
@@ -218,7 +159,7 @@ footer .txt_ad{
 	background:url(../images/pic_ad.png) no-repeat;
 	text-indent:-9999px}
 
-/*新增動畫效果 #20151103*/
+/*新增動畫效果 #201512*/
 .animated {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
