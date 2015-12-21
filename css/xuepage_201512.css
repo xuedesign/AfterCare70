@@ -20,7 +20,7 @@ body{
 	font-size:100%;
 	line-height:22px;
 	color:#513030;
-	background:url(../images/bg_site.png) repeat}
+	background:url(../images/bg_site.jpg) no-repeat fixed}
 a:link {text-decoration:underline; color:#00adee}
 a:visited {text-decoration:underline; color:#8c8c8c}
 a:hover {text-decoration:none; color:#F50}
@@ -47,10 +47,10 @@ image{border:0}
 h1 a{
 	display:block;
 	position:absolute;
-	top:35px;
-	left:-1px;
-	width:186px;
-	height:77px;
+	top:31px;
+	left:50px;
+	width:142px;
+	height:146px;
 	background:url(../images/pic_h1.png) no-repeat;
 	text-indent:-9999px}
 footer{
@@ -82,9 +82,6 @@ footer .txt_ad{
 	
 #box_container{
 	display:block;
-	/*position: absolute;
-	top: 15px;
-    left: 50%;*/
 	width:1238px;
 	margin: 15px auto 0 auto;
 	-webkit-box-shadow: 0 0 20px #4E4E4E;
@@ -93,26 +90,19 @@ footer .txt_ad{
 	-webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
-	background: -webkit-gradient(linear, left top, right top, from(#CDF8FF), to(#80E0F8));
-	background: -webkit-linear-gradient(top, #CDF8FF, #80E0F8);
-	background: -moz-linear-gradient(top, #CDF8FF, #80E0F8);
-	background: -o-linear-gradient(top, #CDF8FF, #80E0F8);
-	background: -ms-linear-gradient(top, #CDF8FF, #80E0F8);
-	background: linear-gradient(top, #CDF8FF, #80E0F8);
-	background-color: #CDF8FF}
+	background:url(../images/bg_content.jpg) no-repeat #fff}
 #box_subcontent{
 	display:block;
 	position:relative;
-	width:1238px;
-	min-height:700px}
+	width:1238px}
 #bg_city{
 	display:block;
 	position:absolute;
 	bottom:0;
 	left:0;
-	background:url(../images/bg_city.png) repeat-x;
+	background:url(../images/bg_city.jpg) no-repeat;
 	width:1238px;
-	height:160px}		
+	height:177px}		
 #box_aside{
 	display:block;
 	position:relative;
@@ -121,35 +111,55 @@ footer .txt_ad{
 	width:195px}
 #box_aside ul{
 	display:block;
-	margin-top:130px;
+	position:absolute;
+	top:210px;
+	left:8px;
+	z-index:99;
+	margin:0;
 	list-style:none}
 #box_aside li a{
 	display: block;
-	width:116px;
-	height:98px;
+	width:155px;
+	height:40px;
 	text-indent:-9999px;
 	background:url(../images/btn_nav.png) no-repeat;
-	margin-bottom:10px;
+	margin-bottom:20px;
 	list-style:none}	
 #box_aside a.nav_01{ background-position: 0 0}
-#box_aside a.nav_01:hover, #box_aside a.nav_01.navin{ background-position: 0 -98px}
-#box_aside a.nav_02{ background-position: -116px 0}
-#box_aside a.nav_02:hover, #box_aside a.nav_02.navin{ background-position: -116px -98px}
-#box_aside a.nav_03{ background-position: -232px 0}
-#box_aside a.nav_03:hover, #box_aside a.nav_03.navin{ background-position: -232px -98px}
-#box_aside a.nav_04{ background-position: -348px 0}
-#box_aside a.nav_04:hover{ background-position: -348px -98px}	
+#box_aside a.nav_01:hover, #box_aside a.nav_01.navin{ background-position: 0 -40px}
+#box_aside a.nav_02{ background-position: 0 -80px}
+#box_aside a.nav_02:hover, #box_aside a.nav_02.navin{ background-position: 0 -120px}
+#box_aside a.nav_03{ background-position: 0 -160px}
+#box_aside a.nav_03:hover, #box_aside a.nav_03.navin{ background-position: 0 -200px}
+#box_aside a.nav_04{ background-position: 0 -240px}
+#box_aside a.nav_04:hover, #box_aside a.nav_04.navin{ background-position: 0 -280px}
+#box_aside a.nav_05{ background-position: 0 -320px}
+#box_aside a.nav_05:hover{ background-position: 0 -360px}
+#box_airport{
+	display:block;
+	position:absolute;
+	top:480px;
+	left:0;
+	background: url(../images/pic_airport-02.png) no-repeat;
+	width:277px;
+	height:188px}		
 
 #box_pagemain{
 	display:block;
 	position:relative;
 	float:right;
 	width:1028px;
-	padding-top:35px}
+	padding-top:6px}
+#box_pagemain h2{
+	display:block;
+	width:219px;
+	height:59px;
+	background:url(../images/pic_slogan-02.png) no-repeat;
+	text-indent:-9999px;
+	margin-left:125px}	
 #box_pageinfo{
 	display: block;
 	width:913px;
-	min-height:680px;
 	margin:0 auto;
 	background: url(../images/bg_pageinfo.png) repeat-y;
 	-webkit-border-radius: 15px 15px 0 0;
@@ -157,46 +167,31 @@ footer .txt_ad{
     border-radius: 15px 15px 0 0}	
 #bar_title{
 	display:block;
-	width:900px;
-	height:51px;
-	padding-left:13px;
-	background:#75bded;
+	width:852px;
+	height:41px;
+	padding:10px 0 0 61px;
+	background: url(../images/bg_pagetitle.png) no-repeat;
 	-webkit-border-radius: 15px 15px 0 0;
     -moz-border-radius: 15px 15px 0 0;
     border-radius: 15px 15px 0 0}	
 #bar_title h3{
 	display:block;
-	background: url(../images/bg_pagetitle.png) no-repeat;
-	width:237px;
-	height:51px;
+	background: url(../images/bg_title.png) no-repeat;
+	width:142px;
+	height:25px;
 	margin:0;
 	text-indent:-9999px}
 #bar_title .ptitle_01{ background-position:0 0}
-#bar_title .ptitle_02{ background-position:0 -51px}
-#bar_title .ptitle_03{ background-position:0 -102px}
-#mytree{
-	display:block;
-	position:absolute;
-	bottom:-3px;
-	left:-40px;
-	background:url(../images/pic_tree-s.png) no-repeat;
-	width:297px;
-	height:524px;}
-#mymoto{
-	display:block;
-	position:absolute;
-	bottom:-3px;
-	left:-150px;
-	background:url(../images/pic_moto-s.png) no-repeat;
-	width:132px;
-	height:131px}	
+#bar_title .ptitle_02{ background-position:0 -251px}
+#bar_title .ptitle_03{ background-position:0 -50px}
+#bar_title .ptitle_03{ background-position:0 -75px}
 
 #box_main{
 	display:block;
-	width:660px;
-	/*height:300px;*/
-	margin:30px 30px 0 215px;
-	padding:0}	
+	width:845px;
+	min-height:470px;
+	margin:30px 30px 1px 30px;
+	padding-bottom:30px}	
 .abgne_tab ul, .abgne_tab li {
 	margin: 0;
 	padding: 0;
