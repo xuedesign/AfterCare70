@@ -9,8 +9,9 @@
 		1 通用
 		2.內容頁
 		   2-1. 基本架構
-		   2-2. 精彩影片
+		   2-2. 精彩影片+生命故事
 		   2-3. 劇照花絮
+		   2-4. 相關連結
 ***********************************************************************************************/
 
 /* 1. 通用 
@@ -41,6 +42,7 @@ image{border:0}
 #wrap{
 	display:block;
 	width:1238px;
+	min-width:1280px;
 	margin:0 auto}
 
 /* 2.1 基本架構*/	
@@ -83,7 +85,7 @@ footer .txt_ad{
 #box_container{
 	display:block;
 	width:1238px;
-	margin: 15px auto 0 auto;
+	margin: 15px auto 30px auto;
 	-webkit-box-shadow: 0 0 20px #4E4E4E;
     -moz-box-shadow: 0 0 20px #4E4E4E;
     box-shadow: 0 0 20px #4E4E4E;
@@ -182,10 +184,11 @@ footer .txt_ad{
 	margin:0;
 	text-indent:-9999px}
 #bar_title .ptitle_01{ background-position:0 0}
-#bar_title .ptitle_02{ background-position:0 -251px}
+#bar_title .ptitle_02{ background-position:0 -25px}
 #bar_title .ptitle_03{ background-position:0 -50px}
-#bar_title .ptitle_03{ background-position:0 -75px}
+#bar_title .ptitle_04{ background-position:0 -75px}
 
+/* 2.2 精彩影片+生命故事*/	
 #box_main{
 	display:block;
 	width:845px;
@@ -196,72 +199,86 @@ footer .txt_ad{
 	margin: 0;
 	padding: 0;
 	list-style: none}
-.abgne_tab {
+.abgne_tab{
 	clear: left;
-	width: 660px;
-	margin: 10px 0 0}
-.tabs { width: 100%; height: 149px}
+	width: 840px;
+	margin: 10px auto 0}
+.tabs { width: 100%}
 .tabs li a{
 	display:block;
-	position: relative;
-	float: left;
-	height: 149px; 
-	text-indent:-9999px;
-	overflow: hidden;
-	margin:0 15px;
-	background:url(../images/bg_tabtitle.png) no-repeat}
-.tabs li a.tabs-01{ width: 320px; background-position: 0 0}
-.tabs li a.tabs-02{ width: 204px; background-position: -320px 0}	
-.tabs a:hover.tabs-01, .tabs .active a.tabs-01{ background-position:0 -149px}
-.tabs a:hover.tabs-02, .tabs .active a.tabs-02{ background-position:-320px -149px}
+	float: left; 
+	margin:0 5px;
+	padding:5px 15px;
+	background:#A4BF5F;
+	font-size:.938em;
+	line-height:25px;
+	color:#FFF;
+	text-decoration:none;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px}
+.tabs a:hover, .tabs .active a{ background:#E60683}
 
 .tab_container {
 	clear: left;
 	width: 100%;
-	border-top: 2px solid #fff;
-	margin-top: 5px}
+	margin-top:15px;
+	border-top: 2px solid #D8E6E0}
 .tab_container .tab_content {
 	display: block;
 	position:relative;
 	padding: 15px 30px}
-.tab_container .tab_content h3{
-	font-size:1.125em;
-	line-height:25px;
-	padding:0}
 .tab_container .tab_content p, .box_profile p, .box_service p{
 	font-size:0.938em;
 	line-height:24px;
 	padding-left:20px;
 	text-shadow:1px 1px 0 #FFF8F6}
-#tab2{ display:none}	
+.float-left{ float:left; margin:20px 20px 20px 0}
 		
-/* 2.2 精彩影片*/	
-.film_link li a{
-	display:block;
-	float:left;
-	width:168px;
-	padding:8px 0;
-	margin:10px 10px 0;
-	background:#75bded;
-	font-size:.938em;
-	line-height:25px;
-	text-align:center;
-	letter-spacing:1px;
-	color:#FFF;
-	text-decoration:none;
-	-webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px}
-.film_link li a:hover{ background:#166FB4}	
+
 /* 2.3 劇照花絮 */	
-.list_photo{}
-.list_photo li{
+#photo_list{
+	display:block;
+	width:840px;
+	margin:0 auto}
+#photo_list li{
 	display:block;
 	float:left;
 	width:100px;
 	height:100px;
-	margin:0 10px 15px}				 	 	
+	margin:0 15px 25px;
+	list-style:none}				 	 	
 
+/* 2.4 相關連結*/
+.box_link ul{
+	display:block;
+	width:845px;
+	margin:0 auto;
+	padding:30px 0 0 0}
+.box_link li{
+	list-style:none;
+	display:block;
+	float:left;
+	width:150px;
+	margin:0 10px 0 9px}
+.box_link li h4{
+	font-size:1em;
+	text-align:center;
+	line-height:22px;
+	padding-top:8px;
+	text-shadow:1px 1px 0 #FFFCFE}		
+.box_link li a{
+	display:block;
+	width:132px;
+	height:132px;
+	background:url(../images/link_logo.png) no-repeat;
+	text-indent:-9999px;
+	margin:0 auto}
+.box_link li a.logo-01{ background-position:0 0}
+.box_link li a.logo-02{ background-position:0 -132px}	
+.box_link li a.logo-03{ background-position:0 -264px}	
+.box_link li a.logo-04{ background-position:0 -396px}	
+.box_link li a.logo-05{ background-position:0 -528px}		
 
 /*新增動畫效果 #20151203*/	
 .animated {

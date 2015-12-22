@@ -62,7 +62,7 @@
          
          <footer>
             <p>財團法人台灣更生保護會 版權所有 TAIWAN AFTER-CARE ASSOCIATION &copy; 2015 All RIGHTS RESERVED</p>
-            <span class="txt_ad">廣告</span>
+            <!--<span class="txt_ad">廣告</span>-->
          </footer>
          <p class="hidden">網站設計： 開始設計工作室 xuedesign studio, http://www.xuedesign.tw/</p>
    </div>
