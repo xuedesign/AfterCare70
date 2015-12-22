@@ -292,78 +292,29 @@ footer .txt_ad{
 .animated.hinge {
   -webkit-animation-duration: 2s;
           animation-duration: 2s}
-@-webkit-keyframes fadeInDown {
+@-webkit-keyframes fadeIn {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, -10%, 0);
-    transform: translate3d(0, -10%, 0)}
+  }
+
   to {
     opacity: 1;
-    -webkit-transform: none;
-    transform: none}
+  }
 }
 
-@keyframes fadeInDown {
+@keyframes fadeIn {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, -10%, 0);
-    transform: translate3d(0, -10%, 0)}
+  }
+
   to {
     opacity: 1;
-    -webkit-transform: none;
-    transform: none}
+  }
 }
-.fadeInDown{
+
+.fadeIn {
   -webkit-animation-duration: 2s;
     -moz-animation-duration: 2s;
 	animation-duration: 2s;	
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown}
-
-@-webkit-keyframes fadeInRight {
-  from {
-	display:block;
-    position:absolute;
-    bottom:-3px;
-    left:80px;  
-    opacity: 1;
-    -webkit-transform: translate3d(50%, 0, 0);
-    transform: translate3d(50%, 0, 0)}
-  to {
-	display:block;
-    position:absolute;
-    bottom:-3px;
-    left:-150px;   
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none}
-}
-
-@keyframes fadeInRight {
-  from {
-    display:block;
-    position:absolute;
-    bottom:-3px;
-    left:80px; 	  
-    opacity: 1;
-    -webkit-transform: translate3d(50%, 0, 0);
-    transform: translate3d(50%, 0, 0)}
-  to {
-	display:block;
-    position:absolute;
-    bottom:-3px;
-    left:-150px;   
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none}
-}
-
-.fadeInRight { 
-  
-  -webkit-animation-delay:1s;
-	animation-delay:1s;	
-  -webkit-animation-duration: 3s;
-    -moz-animation-duration: 3s;
-	animation-duration: 3s;		
-  -webkit-animation-name: fadeInRight;
-  animation-name: fadeInRight}   						
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn}  						
