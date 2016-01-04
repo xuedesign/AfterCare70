@@ -88,7 +88,7 @@ h1 a{
 	background:url(../images/pic_slogan.png) no-repeat;
 	text-indent:-9999px}	
 
-#box_services, #box_man, #box_airport{ display:block;	position:absolute; z-index:1}		
+#box_services, #box_man, #box_airport, #box_phonecall{ display:block;	position:absolute; z-index:1}		
 #box_services{
 	top:230px;
 	right:22px;
@@ -107,6 +107,12 @@ h1 a{
 	background: url(../images/pic_airport.png) no-repeat;
 	width:515px;
 	height:324px}
+#box_phonecall{
+	bottom:15px;
+	right:28px;
+	background:url(../images/pic_phonecall.png) no-repeat;
+	width:401px;
+	height:50px}	
 		
 
 /* 2.3 首頁選單 */		
@@ -284,7 +290,15 @@ footer .txt_ad{
     -moz-animation-duration: 2s;
 	animation-duration: 2s;	
   -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown}      		  
+  animation-name: fadeInDown}
+.fadeInDown-03{
+  -webkit-animation-delay:7s;
+	animation-delay:7s;	
+   -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+	animation-duration: 2s;	
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown}         		  
 
     
    

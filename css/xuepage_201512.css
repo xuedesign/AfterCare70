@@ -260,12 +260,13 @@ footer .txt_ad{
 	display:block;
 	float:left;
 	width:150px;
+	height:220px;
 	margin:0 10px 0 9px}
 .box_link li h4{
 	font-size:1em;
 	text-align:center;
 	line-height:22px;
-	padding-top:8px;
+	padding-top:0;
 	text-shadow:1px 1px 0 #FFFCFE}		
 .box_link li a{
 	display:block;
@@ -278,7 +279,9 @@ footer .txt_ad{
 .box_link li a.logo-02{ background-position:0 -132px}	
 .box_link li a.logo-03{ background-position:0 -264px}	
 .box_link li a.logo-04{ background-position:0 -396px}	
-.box_link li a.logo-05{ background-position:0 -528px}		
+.box_link li a.logo-05{ background-position:0 -528px}	
+.box_link li a.logo-06{ background-position:0 -660px}
+.box_link li a.logo-07{ background-position:0 -792px}	
 
 /*新增動畫效果 #20151203*/	
 .animated {
