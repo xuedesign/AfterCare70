@@ -88,13 +88,27 @@ h1 a{
 	background:url(../images/pic_slogan.png) no-repeat;
 	text-indent:-9999px}	
 
-#box_services, #box_man, #box_airport, #box_phonecall{ display:block;	position:absolute; z-index:1}		
+#box_services, #box_man, #box_airport, #box_phonecall{ display:block;	position:absolute; z-index:1}
 #box_services{
 	top:230px;
 	right:22px;
 	background: url(../images/pic_service.png) no-repeat;
 	width:788px;
-	height:293px}	
+	height:293px}
+#box_services ul{
+    display: block;
+    position: relative}
+#box_services li{ list-style: none}
+#box_services li a{
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    text-indent: -9999px}
+#box_services a.play-01{ top:10px; left:110px}
+#box_services a.play-02{ top:100px; left:275px}
+#box_services a.play-03{ top:15px; left:460px}
+#box_services a.play-04{ top:130px; left:620px}
 #box_man{
 	bottom:0;
 	left:0;

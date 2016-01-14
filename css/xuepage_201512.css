@@ -227,7 +227,7 @@ footer .txt_ad{
 .tab_container .tab_content {
 	display: block;
 	position:relative;
-	padding: 15px 30px}
+	padding: 15px 20px 15px 30px}
 .tab_container .tab_content p, .box_profile p, .box_service p{
 	font-size:0.938em;
 	line-height:24px;
