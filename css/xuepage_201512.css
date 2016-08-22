@@ -21,7 +21,8 @@ body{
 	font-size:100%;
 	line-height:22px;
 	color:#513030;
-	background:url(../images/bg_site.jpg) no-repeat fixed}
+	background:url(../images/bg_site.jpg) no-repeat fixed;
+    background-size: cover}
 a:link {text-decoration:underline; color:#00adee}
 a:visited {text-decoration:underline; color:#8c8c8c}
 a:hover {text-decoration:none; color:#F50}
